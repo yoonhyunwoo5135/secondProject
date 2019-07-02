@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript" src="/project/WebContent/smarteditor2-master/workspace/js/service/HuskyEZCreator.js"></script>
+<script type="text/javascript"> 
+nhn.husky.EZCreator.createInIFrame({
+    oAppRef: oEditors,
+    elPlaceHolder: "popContent",  //textarea ID
+    sSkinURI: "/project/WebContent/smarteditor2-master/workspace/SmartEditor2Skin.html",  //skin경로
+    fCreator: "createSEditor2",
+});
+</script>
+
+</head>
+<body>
+<table>
+      <tr>
+       <th>내용</th>
+       <td><textarea id="popContent" name="popContent" cols="108" rows="15"></textarea></td>
+      </tr> 
+</table>
+</body>
+</html>
