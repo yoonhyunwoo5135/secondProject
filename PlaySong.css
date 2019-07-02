@@ -1,0 +1,24 @@
+@charset "UTF-8";
+.pimg{
+	position: absolute; 
+	left: 150px; 
+	top: 150px;
+}
+.pimg>img{
+	width: 200px; 
+	height: 200px;
+}
+.ptitle{
+	position: absolute;
+	text-align: center;
+	left: 130px; 
+	top: 355px;
+	width: 250px;
+	height: 50px;
+	
+}
+.mp3{
+	position: absolute; 
+	left: 100px; 
+	top: 420px;
+}

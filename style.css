@@ -1,0 +1,192 @@
+@charset "UTF-8";
+#top{
+	margin-top: 50px;
+	width: 900px;
+	height: 100px;
+}
+#title{
+	position: absolute;
+	left: 475px;
+	width: 200px;
+	height: 100px;
+	background-image: url(image/Title.png);
+}
+#search{
+	position: absolute;
+	left: 675px;
+	width: 500px;
+	height: 100px;
+}
+#searchbox{
+	margin-top: 40px;
+	margin-left: 20px;
+	padding-bottom: 5px;
+	border: 1px solid black;
+}
+#login{
+	position: absolute;
+	left: 1175px;
+	width: 200px;
+	height: 100px;	
+}
+#loginbutton{
+	margin-top: 40px;
+}
+#menu{
+	position: absolute;
+	left: 475px;
+	width: 900px;
+	height:70px;
+}
+#menu li{
+	list-style: none;
+	float: left;
+	width: 150px;
+	height: 50px;
+	font-weight: bold;
+	color: black;
+	padding-top: 30px;
+}
+.hr{
+	margin-top: 70px;
+}
+#middle{
+	position: absolute;
+	left: 475px;
+	width: 900px;
+	height: 250px;	
+}
+#album{
+	position: absolute;
+	width: 700px;
+	height: 400px;
+	float: left;
+}
+#table{
+	margin-top: 25px;
+}
+#hotsearch{
+	position: absolute;
+	left: 700px;
+	width: 175px;
+	height: 350px;
+	border: 1px solid black;
+	border-radius: 10px 10px 10px 10px;
+	margin-left: 25px;
+	margin-top: 25px;
+}
+#bottom{
+	margin-top: 350px;
+	position: absolute;
+	left: 475px;
+	width: 900px;
+	height: 300px;
+	border: 10px;
+}
+#chart{
+	text-overflow:ellipsis; 
+	float:left;
+	position: absolute;
+	left: 730px;
+	width: 450px;
+	height: 300px;
+}
+#container{
+	position: absolute;
+	left: 450px;
+	width: 450px;
+	height: 400px;
+}
+#notice{
+	margin-top: -40px;
+	padding-left: 0px;
+	position: absolute;
+	width: 450px;
+	height: 150px;
+}
+#news{
+	padding-left: 20px;
+	position: relative;
+	margin-top: 150px;
+	width: 450px;
+	height: 150px;
+	left: 600px;
+	font: 10px black;
+	bottom: 600px;
+}
+#news1{
+	font-size: 15px;
+	text-align: le;
+}
+#under{
+	margin-top: 820px;
+	position: absolute;
+	left: 475px;
+	width: 900px;
+	height: 38px;
+	font-size: 12px;
+}
+#under2{
+	width: 900px;
+	height: 162px;
+	background-image: url("images/under.PNG");
+}
+#current{
+	position: absolute;
+	width: 900px;
+	height:70px;
+}
+#current li{
+	list-style: none;
+	float: left;
+	width: 90px;
+	height: 40px;
+	font-weight: bold;
+	color: black;
+	padding-top: 5px;
+}
+
+#profile{
+	
+	margin-top: 30px;
+	width: 500px;
+	height: 170px;
+	
+}
+
+
+input[type=checkbox]{
+  width: 20px;
+  height: 20px;
+  margin-left: 15px;
+}
+.simg>img{
+	width: 60px;
+	height: 60px;
+}
+.albumpage>img{
+	width: 150px;
+	height: 150px;
+	margin: 10px;
+}
+.newspage>img{
+	width: 200px;
+	height: 200px;
+	margin: 10px;
+}
+
+/* ----------------------------------------- 추가한 내용--------------------- */
+#list{
+	overflow:hidden;
+	text-overflow:ellipsis;
+	white-space:nowrap;
+}
+#word-break{
+	word-wrap:break-word;
+	font-weight: bold;
+}
+.newsong>img{
+   width: 180px;
+   height: 180px;
+   margin-right: 10px;
+}

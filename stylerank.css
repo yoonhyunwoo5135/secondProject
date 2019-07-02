@@ -1,0 +1,70 @@
+@charset "UTF-8";
+#top{
+	margin-top: 50px;
+	width: 900px;
+	height: 100px;
+}
+#title{
+	position: absolute;
+	left: 475px;
+	width: 200px;
+	height: 100px;
+}
+#search{
+	position: absolute;
+	left: 675px;
+	width: 500px;
+	height: 100px;
+}
+#searchbox{
+	margin-top: 40px;
+	margin-left: 20px;
+	padding-bottom: 5px;
+	border: 1px solid black;
+}
+#login{
+	position: absolute;
+	left: 1175px;
+	width: 200px;
+	height: 100px;	
+}
+#loginbutton{
+	margin-top: 40px;
+}
+#menu{
+	position: absolute;
+	left: 475px;
+	width: 900px;
+	height: 70px;
+}
+#menu li{
+	list-style: none;
+	float: left;
+	width: 150px;
+	height: 50px;
+	font-weight: bold;
+	color: black;
+	padding-top: 30px;
+}
+.sidebar{
+	top: 100px;
+	width: 200px;
+	height: 300px;
+	position: fixed;
+	left: 40%;
+	border: 1px solid bold;
+}
+#middle{
+	position: absolute;
+	left: 475px;
+	width: 900px;
+	height: 1500px;
+}
+.hr{
+	margin-top: 70px;
+}
+#under2{
+	width: 900px;
+	height: 162px;
+	background-image: url("images/under.PNG");
+}
